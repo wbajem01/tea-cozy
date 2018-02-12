@@ -26,6 +26,7 @@ a {
   color: white;
 }
 
+/* Landing Page Section */
 #jumbotron {
   display: flex;
   align-items: center;
@@ -50,6 +51,7 @@ a {
 
 h1 {
   font-weight: bold;
+  text-align: center;
   color: black;
   margin-bottom: 0px;
   border: 1px solid purple;
@@ -58,4 +60,38 @@ h1 {
 #jumbotron span {
   color: black;
   border: 1px solid green;
+}
+
+/* Tea of Month */
+
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.one h2,
+.one span {
+  text-align: center;
+}
+
+.two,
+.three {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ border: 1px solid black;
+}
+
+.tea-of-month-one,
+.tea-of-month-two,
+.tea-of-month-three,
+.tea-of-month-four,
+.tea-of-month-five{
+ display: flex;
+ flex-direction: column;
+}
+
+img {
+ width: 100px;
+ height: 100px;
 }
