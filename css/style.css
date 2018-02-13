@@ -96,6 +96,13 @@ img {
  height: 100px;
 }
 
+/* Locations Section */
+
+.location-details {
+  display: flex;
+  justify-content: space-around;
+}
+
 #footer h1, h5 {
   text-align: center;
 }
