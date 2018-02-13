@@ -95,3 +95,7 @@ img {
  width: 100px;
  height: 100px;
 }
+
+#footer h1, h5 {
+  text-align: center;
+}
