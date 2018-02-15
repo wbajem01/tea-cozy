@@ -3,7 +3,7 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  /* border: 1px solid white; */
+  margin-left: 0px;
 }
 
 /* Header Section */
@@ -11,7 +11,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* font-size: 22px; */
   background-color: black;
   opacity: 0.9;
   padding-left: 10px;
@@ -20,7 +19,6 @@ body {
   position: fixed;
   width: 100%;
   height: 69px;
-  /* border-bottom: 1px solid seashell */
 }
 
 .logo img {
@@ -50,7 +48,6 @@ a:link {
   margin-right: auto;
   height: 700px;
   width: 1200px;
-  /* border: 1px solid white; */
 }
 
 .ribbon {
@@ -61,8 +58,6 @@ a:link {
 }
 
 .mission {
-  /* display: flex;
-  flex-direction: column; */
   height: 100px;
 }
 
@@ -70,7 +65,6 @@ a:link {
 .mission h4 {
   text-align: center;
   margin: 10px;
-  /* margin-bottom: 0px; */
 }
 
 /* Tea of Month */
@@ -125,7 +119,8 @@ a:link {
 
 #locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  height: 500px;
+  background-position: center;
+  height: 600px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -135,6 +130,10 @@ a:link {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 0px;
+}
+
+#locations h4 {
+  font-weight: normal;
 }
 
 .location-details {
