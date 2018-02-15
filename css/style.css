@@ -1,68 +1,97 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  /* border: 1px solid white; */
+}
+
 /* Header Section */
 #header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid orange;
-  width: auto;
-  height: 50px;
+  /* font-size: 22px; */
   background-color: black;
+  opacity: 0.9;
+  padding-left: 10px;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  /* border-bottom: 1px solid seashell */
 }
 
-.logo {
-  border: 1px solid white;
-}
-
-.logo span {
-  color: white;
+.logo img {
+  width: 150px;
+  height: 50px
 }
 
 nav {
-  border: 1px solid yellow;
-
+  margin-right: 10px;
 }
 
 a {
-  color: white;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+a:link {
+  color: seashell;
 }
 
 /* Landing Page Section */
 #jumbotron {
   display: flex;
   align-items: center;
-  width: auto;
-  height: 400px;
-  border: 1px solid purple;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 1200px;
+  /* border: 1px solid white; */
 }
 
 .ribbon {
   display: flex;
   justify-content: center;
+  background-color: black;
   width: 100%;
-  border: 1px solid black;
 }
 
 .mission {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   height: 100px;
-  border: 1px solid red;
 }
 
-h1 {
-  font-weight: bold;
+.mission h2,
+.mission h4 {
   text-align: center;
-  color: black;
-  margin-bottom: 0px;
-  border: 1px solid purple;
-}
-
-#jumbotron span {
-  color: black;
-  border: 1px solid green;
+  margin: 10px;
+  /* margin-bottom: 0px; */
 }
 
 /* Tea of Month */
+#tea-of-month {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+#tea-of-month img {
+ width: 300px;
+ height: 200px;
+}
+
+#tea-of-month span {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .one {
   display: flex;
@@ -72,6 +101,7 @@ h1 {
 .one h2,
 .one span {
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .two,
@@ -79,7 +109,7 @@ h1 {
  display: flex;
  flex-direction: row;
  justify-content: space-around;
- border: 1px solid black;
+ margin-top: 10px;
 }
 
 .tea-of-month-one,
@@ -91,18 +121,48 @@ h1 {
  flex-direction: column;
 }
 
-img {
- width: 100px;
- height: 100px;
+/* Locations Section */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Locations Section */
+#locations h2 {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0px;
+}
 
 .location-details {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 15px;
 }
 
-#footer h1, h5 {
+.downtown,
+.east-bayside,
+.oakdale {
   text-align: center;
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+#footer {
+  height: 200px;
+  width: auto;
+}
+#footer h2, h5 {
+  text-align: center;
+}
+
+.copyright h5 {
+  text-align: left;
+  margin-left: 10px;
 }
